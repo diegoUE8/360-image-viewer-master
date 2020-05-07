@@ -81,9 +81,9 @@ function createCanvas(opt = {}) {
 function getImageURL() {
   // Choose a large texture size based on our GPU
   const maxTextureSize = getMaxTextureSize();
-  let imageUrl = 'Minotti.jpg';
-  if (maxTextureSize >= 7000) imageUrl = 'Minotti.jpg';
-  else if (maxTextureSize >= 4096) imageUrl = 'Minotti.jpg';
+  let imageUrl = 'Minotti.png';
+  if (maxTextureSize >= 7000) imageUrl = 'Minotti.png';
+  else if (maxTextureSize >= 4096) imageUrl = 'Minotti.png';
   return imageUrl;
 }
 
